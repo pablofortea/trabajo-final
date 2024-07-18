@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <meta name="description" content="Conoce la biografia, datos curiosos y las últimas noticias de tus artistas del género urbano español de una manera entretenida.">
+    <link rel="stylesheet" href="styles.css">
+    <title>formusic</title>
+</head> 
+<body>
+
+    <!-- header --> 
+
+    <nav>
+        <div class="header">
+            <div class="header__logo">
+                <h1 class="header__titulo">FORMUSIC</h1>
+            </div>
+
+
+            <div class="header__menu">
+            <ul class="header__lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#galeria">Artistas</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#formulario">Contacto</a></li>  
+            </ul>
+        </div>
+
+            <div class="header__hamburgesa">
+                <div class="header__line1"></div>
+                <div class="header__line2"></div>
+                <div class="header__line3"></div>
+            </div>
+            
+        </div>
+        
+    </nav>
+
+    <script src="js/script.js"></script> <!-- responsive del header --> 
+
+    <!-- galeria de imágenes de los 8 artistas de los que trata la página web --> 
+
+    <div id="galeria">
+        <div class="galeria__texto">
+            <h2 class="galeria__subtitulo">
+                La historia, trayectoria, datos curiosos y noticias de tus artistas españoles favoritos.
+            </h2>
+        </div>
+
+        <div class="galeria__fotos">
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/hoke-foto1.jpeg" alt="hoke-foto-1" id="hoke-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("hoke-link").addEventListener("click", function() {
+                            window.location.href = "hoke.html"
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/fernando-costa-foto2.jpeg" alt="fernando-foto-1" id="fernando-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("fernando-link").addEventListener("click", function() {
+                            window.location.href = "fernando.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/NatosyWaor-foto3.jpeg" alt="natos y waor-foto-1" id="natosywaor-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("natosywaor-link").addEventListener("click", function() {
+                            window.location.href = "nyw.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/recycled-foto4.jpeg" alt="recycled-foto-1" id="recycled-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("recycled-link").addEventListener("click", function() {
+                            window.location.href = "recycled.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/cruz-cafune-foto5.jpg" alt="cruzi-foto-1" id="cruzi-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("cruzi-link").addEventListener("click", function() {
+                            window.location.href = "cruzi.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/delaossa-foto-6.jpeg" alt="delaossa-foto-1" id="delaossa-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("delaossa-link").addEventListener("click", function() {
+                            window.location.href = "delaossa.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/hard_gz-foto6.jpeg" alt="hard-foto-1" id="hard-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("hard-link").addEventListener("click", function() {
+                            window.location.href = "hard.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+
+            <div class="galeria__items">
+                <picture>
+                    <img src="assets/kaze-foto8.jpeg" alt="kaze-foto-1" id="kaze-link" style="cursor: pointer;">
+
+                    <script>
+                        document.getElementById("kaze-link").addEventListener("click", function() {
+                            window.location.href = "kaze.html";
+                        });
+                    </script>
+                </picture>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- área de noticias --> 
+
+    <div id="noticias">
+        <div class="noticias__titulo">
+            <h3 class="texto">Últimas noticias del genero urbano español</h3>
+        </div>
+        <div class="noticias__contenedor">
+
+
+            <div class="noticias__items">
+                <div class="noticias__items__foto">
+                    <picture>
+                        <img src="assets/nwr-noticia1.jpg" alt="Nueva gira por España de Natos, Waor y Recycled J">
+                    </picture>
+                </div>
+                <div class="noticias__items__texto">
+                    <div class="noticias__items__texto__titulo">
+                        <h4>Natos, Waor y Recycled anuncian gira por España:</h4>
+                    </div>
+                    <div class="noticias__items__texto__parrafo">
+                <p>Uno de los trios más famosos de toda la historia del genero urbano español acaba de anunciar que van a dar su segunda gira alrededor de España, las entradas estaran disponibles en la cuenta oficial de Natos y Waor a partir del 1 de agosto.</br>
+                        Aún no hay nada seguro pero se espera que la gira sea por las siguientes ciudades: Valencia, Madrid, Málaga, Barcelona, Sevilla y Bilbao</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noticias__items">
+                <div class="noticias__items__foto">
+                    <picture>
+                        <img src="assets/cruzi-noticia2.jpeg" alt="nuevo single de Cruz Cafune">
+                    </picture>
+                </div>
+                <div class="noticias__items__texto">
+                    <div class="noticias__items__texto__titulo">
+                        <h4>Cruz Cafune anuncia nuevo single</h4>
+                    </div>
+                    <div class="noticias__items__texto__parrafo">
+                <p>El artista canario acaba de anuncia que a finales de esta semana va ha sacar un nuevo tema llamado "Movezz en silencio", todos sus fans están muy pendiente de este nuevo single a la espera de que pronto anuncie la salida de su  nuevo album en colaboración con el artista Valenciano "Hoke".</br></br>
+                    Su nueva canción estará disponible en todas las plataformas de streaming el domingo a las 21:00h (hora España).
+                       </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noticias__items">
+                <div class="noticias__items__foto">
+                    <picture>
+                        <img src="assets/fernando-noticia3.jpg" alt="FernandoCosta y Fran DC en el remix de “Malamanera”">
+                    </picture>
+                </div>
+                <div class="noticias__items__texto">
+                    <div class="noticias__items__texto__titulo">
+                        <h4>FernandoCosta y Fran DC en el remix de “Malamanera”</h4>
+                    </div>
+                    <div class="noticias__items__texto__parrafo">
+                    <p>El rapero español FernandoCosta ha compartido recientemente el esperado remix de "Malamanera" junto al artista de dance y electrónica, Fran DC.
+                    Ha visto la luz el mítico tema "Malamanera" de FernandoCosta, en un remix especial y de la mano del artista granadino Fran DC.</br> Esta colaboración, formada por dos de los talentos más prolíficos del panorama español, ya había sido presentada en directo en el Monegros Desert Festival de 2023, así que su lanzamiento ha tenido un gran recibimiento.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noticias__items">
+                <div class="noticias__items__foto">
+                    <picture>
+                        <img src="assets/hoke-noticia4.jpg" alt="El album Olympique de Hoke se convierte en disco de oro">
+                    </picture>
+                </div>
+                <div class="noticias__items__texto">
+                    <div class="noticias__items__texto__titulo">
+                        <h4>El album Olympique de Hoke se convierte en disco de oro</h4>
+                    </div>
+                    <div class="noticias__items__texto__parrafo">
+                    <p>Esta semana se acaba de confirmar lo que todo el mundo esperaba, el album del rapero valenciano Hoke se acaba de convertir en disco de oro.</br></p>
+                    <p>El rapero valenciano ha declarado que se siente muy orgulloso y motivado para seguir sacando música</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noticias__items">
+                <div class="noticias__items__foto">
+                    <picture>
+                        <img src="assets/hard-noticia5.jpg" alt="Hard Gz anuncia concierto en el Wizink Center de Madrid">
+                    </picture>
+                </div>
+                <div class="noticias__items__texto">
+                    <div class="noticias__items__texto__titulo">
+                        <h4>Hard Gz anuncia concierto en el Wizink Center de Madrid</h4>
+                    </div>
+                    <div class="noticias__items__texto__parrafo">
+                     <p>El artista gallego ha anunciado concierto para finales de 2024 en el Wizink Center de Madrid y la reacción de sus fans no ha tardado en llegar agotando todas las entradas (7254) en menos de dos días, el aforo ya esta completo y es imposible conseguir más entras por lo que Hard Gz se esta planteando buscar otra fecha para repetir el concierto y que nadie se quede sin su entrada.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="noticias__items">
+                <div class="noticias__items__foto">
+                    <picture>
+                    <img src="assets/delaossa-noticia6.jpg" alt="Delaossa anuncia nuevo album para finales de 2024">
+                    </picture>
+                </div>
+                <div class="noticias__items__texto">
+                    <div class="noticias__items__texto__titulo">
+                        <h4>Delaossa anuncia nuevo album para finales de 2024</h4>
+                    </div>
+                    <div class="noticias__items__texto__parrafo">
+                        <p>Como esperabamos después de tanta espera sin tener noticias de Delaossa ha anunciado nueo album para finales de 2024, segun el artista va a ser un album cargado de sorpresas con colaboraciones impresionantes y una gran variedad de estilos musicales pero sin perder la esencia underground que lo caracteriza.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!-- formulario --> 
+
+    <div id="formulario">
+        
+        <form action="/submit-form" method="post">
+            <h5>Formulario de Contacto</h5>
+            
+        <label for="formulario__nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+         <label for="formulario__telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+        <label for="formulario__correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+        <label for="formulario__mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- footer --> 
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column logo">
+                
+                <h1>FORMUSIC</h1>
+            </div>
+            <div class="footer-column privacy">
+                <h6>Políticas</h6>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social">
+                <h5>Síguenos</h5>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+        
+    </footer>
+    
+</body>
+</html>
